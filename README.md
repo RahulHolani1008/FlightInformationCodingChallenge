@@ -37,7 +37,7 @@ Legs - These are journeys (outbound, return) with duration, stops and airlines.
 
 Unit tests are mandatory to be done using "npm lint" and "npm test"
 
-A FOLLOW-UP.md file is attached with the project. At the end of the project, please commit it with answers to the follow-up questions.
+A QnA.md file is attached with the project. At the end of the project, please commit it with answers to the follow-up questions.
 
 The commits should not include node_modules and must be added to the .gitIgnore
 
