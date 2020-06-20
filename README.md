@@ -6,7 +6,7 @@ Thanks for taking the time to do our front-end coding test. The challenge has tw
 
 2. some follow-up questions
 
-# You will be graded based on the following have been met:
+# The following criterias must be met:
 
 Your implementation works as described in the task.
 
@@ -15,9 +15,9 @@ Your solution looks like the provided design.
 # Task
 Fetch flight results from the provided flights.json and format them into client readable results.
 
-You are not required to serve this separately from the dev server (i.e. npm start).
-
 Use the returned data to display a page of results that matches the given design.
+
+A second page containing data about seats available in selected flight must be designed and implemented by you.
 
 Times should be displayed in 24 hour format.
 
