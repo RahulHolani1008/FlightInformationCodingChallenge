@@ -1,3 +1,5 @@
+Please fork this repository before continuing.
+
 # Flight Information Coding Challenge
 
 Thanks for taking the time to do our front-end coding test. The challenge has two parts:
@@ -17,12 +19,14 @@ Fetch flight results from the provided flights.json and format them into client 
 
 Use the returned data to display a page of results that matches the given design.
 
-A second page containing data about seats available in selected flight must be designed and implemented by you.
+A second page containing data about seats available and total number of seats in selected flight must be designed and implemented by you.
 
 Times should be displayed in 24 hour format.
 
 # Design
 We've provided a design for small-screens (320px) and 4K screen. Your end goal is to mimic it with your own take on the UI. You don't have to use our styleguide or our components -- picking colours from the image and rolling your own css to save time is absolutely fine.
+
+Please use minimal number of media queries
 
 For the airline logos, insert the airline id to the following url: https://logos.skyscnr.com/images/airlines/favicon/{client_id}.png
 
@@ -37,10 +41,6 @@ Legs - These are journeys (outbound, return) with duration, stops and airlines.
 
 Unit tests are mandatory to be done using "npm lint" and "npm test"
 
-A QnA.md file is attached with the project. At the end of the project, please commit it with answers to the follow-up questions.
-
-The commits should not include node_modules and must be added to the .gitIgnore
-
 # Standard practices to be used:
 
 Code must be broken into components which can be reused if required.
@@ -48,4 +48,11 @@ Code must be broken into components which can be reused if required.
 Code must be based on a heirarchical structure.
 
 Minimal use of custom styling is very important.
+
+The commits should not include node_modules and must be added to the .gitIgnore
+
+# Follow up:
+
+A QnA.md file is attached with the project. At the end of the project, please commit it with answers to the follow-up questions.
+
 
